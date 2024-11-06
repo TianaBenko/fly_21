@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlyMove
     : MonoBehaviour
 {
-    //[SerializeField] Rigidbody rigidBody; //для velocity нужно подтянуть rigidbody и если большая скорость у персонажа, то выставить Collision Detection - Continuous Dynamic
+    [SerializeField] Rigidbody rigidBody; //для velocity нужно подтянуть rigidbody и если большая скорость у персонажа, то выставить Collision Detection - Continuous Dynamic
     //тут была ошибка. Лучше Rigidbody подтянуть в самом юнити, а не начитать тут
 
     [SerializeField] GameObject[] guns;
@@ -74,8 +74,8 @@ public class FlyMove
         float newYPos = transform.localPosition.y + yOffset;
         float clampYPos = Mathf.Clamp(newYPos, -YClamp, YClamp);
 
-        transform.localPosition = new Vector3(clampXPos, clampYPos, transform.localPosition.z);
-        //rigidBody.MovePosition(rigidBody.position + new Vector3(clampXPos, clampYPos, transform.localPosition.z));//задаём вектор скорости твердого тела
+        //transform.localPosition = new Vector3(clampXPos, clampYPos, transform.localPosition.z);
+        rigidBody.MovePosition(rigidBody.position + new Vector3(clampXPos, clampYPos, transform.localPosition.z));//задаём вектор скорости твердого тела
         
     }
 
