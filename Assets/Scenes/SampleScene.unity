@@ -2893,7 +2893,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.11, z: 0.26}
+  m_Size: {x: 0.3, y: 0.27, z: 0.32}
   m_Center: {x: 0, y: 0.04, z: -0.02}
 --- !u!114 &433323208
 MonoBehaviour:
@@ -2932,7 +2932,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 2
 --- !u!1 &438820410
 GameObject:
@@ -6119,7 +6119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec58291aa3bdca42aa775392b984a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidBody: {fileID: 433323209}
   guns:
   - {fileID: 2137656745}
   - {fileID: 2096031617}
