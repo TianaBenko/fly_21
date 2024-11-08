@@ -5,6 +5,7 @@ using UnityEngine;
 public class FlyMove
     : MonoBehaviour
 {
+    int status = 2;
     //[SerializeField] Rigidbody rigidBody; //для velocity нужно подтянуть rigidbody и если большая скорость у персонажа, то выставить Collision Detection - Continuous Dynamic
     //тут была ошибка. Лучше Rigidbody подтянуть в самом юнити, а не начитать тут
 
@@ -44,7 +45,15 @@ public class FlyMove
         {
             MoveFly();
             rot.RotFly(xMove, yMove);
-            FireGubs();
+            if (status == 1)
+            {
+                FireGubs();
+            }
+            if (status == 2)
+            {
+                FirePistolet();
+            }
+            
         }
 
     }
@@ -117,4 +126,14 @@ public class FlyMove
         }
     }
 
+    void FirePistolet()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            foreach (GameObject gun in guns)
+            {
+                gun.GetComponent<ParticleSystem>().Emit(1);
+            }
+        }
+    }
 }
