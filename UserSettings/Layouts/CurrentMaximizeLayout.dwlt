@@ -20,12 +20,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1706.6666
+    width: 1706.6667
     height: 840.6667
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 57
+  controlID: 2708
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,8 +48,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 58.666668
-    width: 1191
-    height: 536.3333
+    width: 959.6667
+    height: 677.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -85,10 +85,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -97,23 +97,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1191
-      height: 515.3333
-    m_Scale: {x: 0.71574074, y: 0.71574074}
-    m_Translation: {x: 595.5, y: 257.66666}
+      width: 959.6667
+      height: 656.6667
+    m_Scale: {x: 0.88529277, y: 0.88529295}
+    m_Translation: {x: 479.10104, y: 328.33334}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -832.0052
-      y: -360
-      width: 1664.0104
-      height: 720
+      x: -541.1781
+      y: -370.87537
+      width: 1084.0105
+      height: 741.75073
     m_MinimalGUI: 1
-  m_defaultScale: 0.71574074
-  m_LastWindowPixelSize: {x: 1786.5, y: 804.5}
+  m_defaultScale: 0.7497396
+  m_LastWindowPixelSize: {x: 1439.5, y: 1016.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -138,12 +138,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1350
+    width: 1161.3334
     height: 840.6667
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 58
+  controlID: 2709
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,12 +163,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1350
-    height: 557.3333
+    width: 1161.3334
+    height: 698.6667
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 59
+  controlID: 2710
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1192
-    height: 557.3333
+    width: 960.6667
+    height: 698.6667
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
@@ -278,8 +278,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 58.666668
-    width: 999
-    height: 569.6667
+    width: 694.3333
+    height: 611.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -292,8 +292,8 @@ MonoBehaviour:
   m_SearchText: 
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 272fd499
-    m_LastClickedID: -1714147545
+    m_SelectedIDs: 7b59923f
+    m_LastClickedID: 1066555771
     m_ExpandedIDs: a01a5fa600000000c53aba5a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -327,12 +327,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1192
+    x: 960.6667
     y: 0
-    width: 158
-    height: 557.3333
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 200.66669
+    height: 698.6667
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -359,10 +359,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1192
+    x: 960.6667
     y: 58.666668
-    width: 156
-    height: 536.3333
+    width: 198.66669
+    height: 677.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -373,7 +373,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -171, y: -26.666687}
-      snapOffsetDelta: {x: 15, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -556,12 +556,12 @@ MonoBehaviour:
       layout: 4
     - dockPosition: 1
       containerId: overlay-container--right
-      floating: 0
+      floating: 1
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 24.666666}
+      snapOffset: {x: 0, y: -212.00003}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 2
       id: Scene View/Particles
       index: 10
       layout: 4
@@ -631,9 +631,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 99.53045, y: -46.329266, z: 56.53002}
+    m_Target: {x: 6.336731, y: -39.04818, z: 93.56645}
     speed: 2
-    m_Value: {x: 99.53045, y: -46.329266, z: 56.53002}
+    m_Value: {x: 6.336731, y: -39.04818, z: 93.56645}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -680,13 +680,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.070810504, y: 0.741106, z: -0.07914694, w: 0.6629557}
+    m_Target: {x: 0.11513333, y: -0.58030504, z: -0.083325565, w: -0.8019408}
     speed: 2
-    m_Value: {x: 0.07088866, y: 0.7404328, z: -0.07907503, w: 0.6636875}
+    m_Value: {x: 0.11512978, y: -0.5802871, z: -0.083322994, w: -0.80191606}
   m_Size:
-    m_Target: 2.4027905
+    m_Target: 6.277166
     speed: 2
-    m_Value: 2.4027905
+    m_Value: 6.277166
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -786,26 +786,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 557.3333
-    width: 1350
-    height: 283.33337
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+    y: 698.6667
+    width: 1161.3334
+    height: 142
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -827,9 +827,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 552
-    width: 1258.3334
-    height: 326.33334
+    y: 757.3334
+    width: 1160.3334
+    height: 121
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -866,7 +866,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 23916
+  m_LastSelectedObjectID: 342240
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -888,9 +888,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 616
-    width: 1349
-    height: 262.33337
+    y: 756
+    width: 1237
+    height: 122.333374
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -907,23 +907,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Particles
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Particles
   m_LastFoldersGridSize: 96
   m_LastProjectPath: "H:\\\u0443\u0447\u0443 \u044E\u043D\u0438\u0442\u0438\\projects\\fly_21"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 81.666626}
-    m_SelectedIDs: 403d0100
-    m_LastClickedID: 81216
-    m_ExpandedIDs: 00000000386500003a6500003c65000000ca9a3b
+    scrollPos: {x: 0, y: 105.666626}
+    m_SelectedIDs: 3a3d0100
+    m_LastClickedID: 81210
+    m_ExpandedIDs: 00000000386500003a6500003c6500003a3d010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -951,7 +951,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000386500003a6500003c650000
+    m_ExpandedIDs: 00000000386500003a6500003c65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,8 +976,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 681c0000
-    m_LastClickedInstanceID: 7272
+    m_SelectedInstanceIDs: 7a780200
+    m_LastClickedInstanceID: 161914
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d26a0000c26800002a6a0000f671000006770000e693000024720000b46b0000226b0000dca90000ae6b000076990000141501001a7300005673000006750000f26a0000000000001e69000018080100
     m_RenameOverlay:
@@ -1003,7 +1003,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 45.666626}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 321.66666
@@ -1229,12 +1229,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1350
+    x: 1161.3334
     y: 0
-    width: 102.666626
+    width: 156.66663
     height: 840.6667
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -1260,9 +1260,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1350
+    x: 1161.3334
     y: 58.666668
-    width: 100.666626
+    width: 154.66663
     height: 819.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1272,23 +1272,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 681c0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: de37ffff7e38ffff7448ffff38fbffff2c5c0000325d00006c5d000054e80100eae80100
+      m_ExpandedIDs: 164efcff6a4efcff2c56fcfffcecfcff3eeffcff467efeffaafcfeffde37ffff7e38ffff7448ffff38fbffff2c5c0000325d00006c5d000054e80100eae80100ac740200b2750200ec7502002c780200123505005e350500183605005236050092380500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: BulletsL
+        m_OriginalName: BulletsL
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 342240
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 18}
       m_SearchString: 
@@ -1313,12 +1313,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1452.6666
+    x: 1318
     y: 0
-    width: 254
+    width: 388.66675
     height: 840.6667
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 21}
@@ -1375,9 +1375,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1453.6666
-    y: 19
-    width: 253
+    x: 1318
+    y: 58.666668
+    width: 387.66675
     height: 819.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1417,9 +1417,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1439.3334
+    x: 1389.3334
     y: 58.666668
-    width: 266.33325
+    width: 316.33325
     height: 819.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1433,7 +1433,7 @@ MonoBehaviour:
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 1
   changeTab: 2
   activeTab: 2
   initProjectView:
@@ -1446,8 +1446,19 @@ MonoBehaviour:
     treeLocals:
       IsRemote: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1456,7 +1467,27 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -1471,8 +1502,30 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1481,7 +1534,37 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -1496,27 +1579,31 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2024-11-06T21:39:49.328+03:00
+      cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 1
     currentBranch:
-      name: 
-      tracking: 
+      name: master
+      tracking: origin/master
     currentRemote:
-      name: 
-      url: 
+      name: origin
+      url: https://github.com/TianaBenko/fly_21.git
       login: 
       user: 
       host: 
       function: 0
       token: 
-    localBranches: []
-    remoteBranches: []
+    localBranches:
+    - name: master
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/master
+      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
@@ -1591,8 +1678,8 @@ MonoBehaviour:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     logEntries:
     - commitID: dac593e9d022cef2172f5cd666b6c64f4340c863
       mergeA: 
@@ -13523,19 +13610,19 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 1
+      selectedIndex: 0
     selectedEntry:
-      commitID: a3dfaf8ece998359b7c52ed29114fd3276016aba
+      commitID: dac593e9d022cef2172f5cd666b6c64f4340c863
       mergeA: 
       mergeB: 
       authorName: Tiana Benko
       authorEmail: tianabenko@gmail.com
       commitEmail: tianabenko@gmail.com
       commitName: Tiana Benko
-      summary: rigidBody move
-      description: 
-      timeString: 2024-11-06T21:02:46.000+03:00
-      commitTimeString: 2024-11-06T21:02:46.000+03:00
+      summary: Revert "rigidBody move"
+      description: This reverts commit a3dfaf8ece998359b7c52ed29114fd3276016aba.
+      timeString: 2024-11-06T21:05:01.000+03:00
+      commitTimeString: 2024-11-06T21:05:01.000+03:00
       changes:
       - path: Assets\Scripts\FlyMove.cs
         fullPath: "H:\\\u0443\u0447\u0443 \u044E\u043D\u0438\u0442\u0438\\projects\\fly_21\\Assets\\Scripts\\FlyMove.cs"
@@ -13699,13 +13786,13 @@ MonoBehaviour:
       resetToSystem: 0
       changingManually: 0
       installSettingsHidden: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2024-11-06T20:56:24.794+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 1
-    newRepositoryRemoteUrl: 
+    newRepositoryRemoteUrl: https://github.com/TianaBenko/fly_21.git
     repositoryRemoteName: origin
-    repositoryRemoteUrl: 
+    repositoryRemoteUrl: https://github.com/TianaBenko/fly_21.git
     scroll: {x: 0, y: 0}
     userSettingsView:
       gitName: Tiana Benko
@@ -13714,7 +13801,7 @@ MonoBehaviour:
       newGitEmail: tianabenko@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2024-11-06T20:56:04.688+03:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
       configSettingsHidden: 0
     repositorySettingsHidden: 0
