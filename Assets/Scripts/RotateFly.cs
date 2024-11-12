@@ -92,7 +92,7 @@ public class RotateFly : MonoBehaviour
     {
         angleZ = angleZ + (speedSomersault * Time.deltaTime);
 
-        Debug.Log(angleZ);
+        //Debug.Log(angleZ);
         
         //yield return new WaitForSeconds(2f);
         //angleZ = angleZ + (speedSomersault * Time.deltaTime);// до 360

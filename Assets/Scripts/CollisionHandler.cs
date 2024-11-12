@@ -19,11 +19,23 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //print("Hit Trigger");
-        StartDeath();
-        explosionFX.SetActive(true);
-        Invoke("RestartLevel", LoadLevelDelay);
+        if(other.tag == "wall")
+        {
+            
+            StartDeath();
+            explosionFX.SetActive(true);
+            Invoke("RestartLevel", LoadLevelDelay);
+        }
+        if(other.tag == "gologramm")
+        {
+            //Debug.Log("Hit Trigger");
+            flyMove.status = 2;
+            //Debug.Log(flyMove.status);
+        }
+        
     }
+
+
 
     void StartDeath()
     {

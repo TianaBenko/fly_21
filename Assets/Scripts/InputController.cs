@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PathCreation.Examples;
 
 public class InputController : MonoBehaviour
 {
     [SerializeField]  RotateFly rotateFly;
+    [SerializeField] PathFollower pathFollower;
 
 
 
@@ -29,5 +31,20 @@ public class InputController : MonoBehaviour
             }
 
         }
+
+        if (Input.GetKeyDown(KeyCode.Q)) 
+        {
+            if (pathFollower.speed == 6f)
+            {
+                pathFollower.speed = 30f;
+            }
+            else
+            {
+                pathFollower.speed = 6f;
+            }
+        }
+
+        //if (Input.GetKeyDown(KeyCode.Alpha1))
+        
     }
 }
