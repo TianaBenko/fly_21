@@ -8,19 +8,22 @@ public class Operator : MonoBehaviour
 {
     [SerializeField] GameObject player;
     Transform target;
-
+    float delta = 1; // уменьшает време перехода из положения в положение
+    Vector3 ofset = new Vector3(-1.5f, 0, 0); // отступ камеры от мухи
 
     void Start()
     {
+        target = player.transform;
+        transform.localPosition = player.transform.localPosition + ofset;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        target = player.transform;
+        
         //transform.LookAt(target, Vector3.up);
-
+        transform.LookAt(target);
         
         
      
@@ -29,8 +32,13 @@ public class Operator : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.LookAt(target);
-        //transform.position = player.transform.position + new Vector3 (-1.5f, 0, 0);
-        transform.position = Vector3.Lerp(transform.position, target.position + new Vector3(-1.5f, 0 , 0), Time.deltaTime);
-    }  
+        
+        //transform.localPosition = player.transform.localPosition + ofset;
+        //transform.position = Vector3.Lerp(transform.position, player.transform.position + ofset, delta * Time.deltaTime);
+    }
+
+    private void FixedUpdate()
+    {
+        
+    }
 }
