@@ -2937,6 +2937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoadLevelDelay: 1
   explosionFX: {fileID: 794209606}
+  rotateFly: {fileID: 433323210}
 --- !u!65 &433323206
 BoxCollider:
   m_ObjectHideFlags: 0

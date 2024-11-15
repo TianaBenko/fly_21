@@ -6,6 +6,7 @@ TagManager:
   tags:
   - wall
   - gologramm
+  - enemy
   layers:
   - Default
   - TransparentFX

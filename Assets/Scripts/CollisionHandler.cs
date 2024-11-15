@@ -7,6 +7,7 @@ public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float LoadLevelDelay; // в секундах
     [SerializeField] GameObject explosionFX; // префаб эффекта взрыва
+    [SerializeField] RotateFly rotateFly;
 
 
     FlyMove flyMove;
@@ -31,6 +32,14 @@ public class CollisionHandler : MonoBehaviour
             //Debug.Log("Hit Trigger");
             flyMove.status = 2;
             //Debug.Log(flyMove.status);
+        }
+        if (other.tag == "enemy")
+        {
+            if (rotateFly.isBarrelRollFinish == false)
+            {
+                rotateFly.isBarrelRollFinish = true;
+                rotateFly.angleZ = 0f;
+            }
         }
         
     }
